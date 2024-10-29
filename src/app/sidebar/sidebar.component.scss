@@ -1,3 +1,7 @@
 aside{
-    width: 10rem;
+    width: 8rem;
+}
+aside li:hover{
+    color: red;
+    cursor: pointer;
 }

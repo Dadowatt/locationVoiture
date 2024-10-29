@@ -1,6 +1,24 @@
-.rounded{
+.board{
     background-color: #fff;
+    width: 15rem;
+    line-height: 4rem;
+}
+#board strong{
+    text-decoration: underline;
+}
+.board li{
+    text-transform: capitalize;
+}
+.board li:hover{
+    color: red;
+    cursor: pointer;
 }
 table{
     line-height: 4rem;
+}
+.table-actions{
+    cursor: pointer;
+}
+.table-container{
+    background-color: #fff;
 }
